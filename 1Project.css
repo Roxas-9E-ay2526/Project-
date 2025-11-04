@@ -1,0 +1,185 @@
+.top{
+	height: 100vh;
+	width: 100%;
+	background-image: url(backgrounds2.png);
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 25px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo{
+	color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+span{
+	color: #f9004d;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalization;
+}
+nav ul li a:hover{
+	color: #f9084d;
+	transition: .4s;
+}
+.con{
+	color: white;
+	font-weight: bold;
+	padding: 10px 25px;
+    border-radius: 30px;
+    background-color: #f9084d;
+}
+.Intro{
+	position: absolute;
+	top: 30%;
+	left: 8%;
+}
+.Intro h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 60px;
+}
+.Intro p{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+.Intro h2{
+	color: white;
+	font-size: 20px;
+}
+.about{
+	width: 100%;
+	padding: 0px -40px;
+	background-color: #191919;
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.about-text{
+	width: 600px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about h1{
+	color: white;
+	font-size: 75px;
+	text-transform: bold;
+	margin-bottom: 50px;
+}
+.about p{
+	color: white;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: bold;
+}
+.Works{
+	background-color: #101010;
+	width: 100%;
+	padding: 100px 0px;
+}
+.Works h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.border{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background-color: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.border img{
+	font-size: 50px;
+	display: bloack;
+    text-align: center;
+    margin: 25px 0px;
+}
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 10px;
+}
+.border ul li{
+	color: white;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.contact-me p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.contact-me{
+	width: 100%;
+	height: 100px;
+	background: #191919;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.contacts label {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+.contacts legend{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+.contacts p{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+div{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.number p{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.feedback p{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
